@@ -12,5 +12,5 @@ The code has been tested with gfortran 4.6.* and Intel fortran 12.1.3 on Linux m
 
 Note that the core of the code is dimension independent and trivial to extend to higher dimensions (and the extension to 2+1 dimensions has been implemented and tested; as mentioned in the paper, no physically interesting results arise, due to the coupling timescales involved).
 
-This code relies on the LAPACK library for matrix inversion and the minpack library for root-finding. Please see the disclaimer in the minpack directory for the terms of use of minpack - the original code can be found at netlib.org. The remaining files are licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/.
+This code relies on the LAPACK library for matrix inversion, the FFTW3 library for Fourier transforms, and the minpack library for root-finding. Please see the disclaimer in the minpack directory for the terms of use of minpack - the original code can be found at netlib.org. The remaining files are licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/.
 
