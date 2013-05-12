@@ -1,0 +1,28 @@
+! Parameters for figure 3 in Hawke, Comer, Andersson
+! Figure 2 just requires modifying the resolution
+
+&parameters courant = 0.25,
+ rk_order = 4,
+ differencing_order = 4,
+ dissipation_order = 5,
+ eps_dissipation = 0.0,
+ gz = 3,
+ out_dir_base = 'Convergence_coupled_vbg_long_o4_hi',
+ out_dir_date = .false.,
+ out_every_dt = 0.0625,
+ xmin = -1.0, 
+ xmax = 1.0,
+ t_end = 100.0,
+ master_function_type = 'generic_paper',
+ eos_m = 1.0, 1.0,
+ eos_gamma = 1.6, 1.8,
+ eos_kappa = 0.5, 0.5,
+ eos_kappa_np = 0.0,
+ eos_kappa_delta = 0.5,
+ initial_n = 1.0, 1.0,
+ initial_ptbn_n = 0.000001, 0.0,
+ initial_v = 0.1, 0.0,
+ perturbation_type = 'trig'
+ do_fft = F,
+ fft_out_every_n = 1
+ np = 32/
