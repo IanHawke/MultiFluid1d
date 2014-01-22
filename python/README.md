@@ -14,7 +14,7 @@ This is a re-implementation using python. The IPython notebooks present examples
 These notebooks can take a while to run - at first it will be more effective to view the static versions via
 http://nbviewer.ipython.org/github/IanHawke/MultiFluid1d/blob/master/python/Figure1.ipynb
 http://nbviewer.ipython.org/github/IanHawke/MultiFluid1d/blob/master/python/InstabilityAnimation.ipynb
-http://nbviewer.ipython.org/github/IanHawke/MultiFluid1d/blob/master/python/InstabilityAnimation.ipynb
+http://nbviewer.ipython.org/github/IanHawke/MultiFluid1d/blob/master/python/TimeFrequencyBehaviour.ipynb
 
 At the moment these scripts really are a direct re-implementation, and need
 
